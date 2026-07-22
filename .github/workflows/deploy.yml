@@ -32,7 +32,7 @@ jobs:
       # - name: Run tests
       #   run: npm test
       - name: Run tests with live server
-        run: npx start-server-and-test start http://127.0.0.1:$PORT test
+        run: npx start-server-and-test start http://127.0.0.1:$PORT 
       - name: Output information
         run: |
           echo "MONGODB_USERNAME: $MONGODB_USERNAME"
